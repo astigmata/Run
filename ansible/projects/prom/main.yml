@@ -5,8 +5,8 @@
     - name: list files
       shell: "ls -R /runner"
 
-- name: Run role from main playbook
-  hosts: all
-
-  roles:
-    - { role: prometheus }
+#- name: Run role from main playbook
+#  hosts: all
+#
+#  roles:
+#    - { role: prometheus }
