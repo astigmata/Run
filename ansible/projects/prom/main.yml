@@ -5,7 +5,6 @@
     - name: list files
       shell: "ls -R /runner"
 
----
 - name: Run role from main playbook
   hosts: all
 
