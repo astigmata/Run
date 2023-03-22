@@ -1,3 +1,11 @@
+- name: debug controller
+  hosts: localhost
+
+  tasks:
+    - name: list files
+      shell: "ls -R /runner"
+
+---
 - name: Run role from main playbook
   hosts: all
 
